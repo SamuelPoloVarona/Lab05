@@ -42,8 +42,6 @@ int binary_search(vector<string> container, string element) {
 
 
 int main() {
-
-
     //gets the data to search through
     vector<string> data_set = getStringData();
 
