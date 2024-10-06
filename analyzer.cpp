@@ -47,7 +47,7 @@ int main() {
     vector<string> data_set = getStringData();
 
     cout << "----------" << endl;
-    cout << "Searching for \"incorrect mistake\"..." << endl;
+    cout << "Searching for \"not_here\"..." << endl;
 
     auto start_linear = chrono::system_clock::now();
     int found1 = linear_search(data_set, "not_here");
